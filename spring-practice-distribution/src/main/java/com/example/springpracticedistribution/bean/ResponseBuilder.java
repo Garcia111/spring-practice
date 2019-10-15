@@ -1,4 +1,4 @@
-package com.example.springpractice.entity;
+package com.example.springpracticedistribution.bean;
 
 /**
  * @author：Cheng.
