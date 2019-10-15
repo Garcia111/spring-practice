@@ -1,7 +1,8 @@
 
+DROP TABLE IF EXISTS spring_practice.customer;
 
 CREATE TABLE IF NOT EXISTS spring_practice.customer(
-  id             bigint                      NOT NULL,
+  id             bigint                      NOT NULL primary key,
   name           varchar(32)                 NOT NULL,
   mobile         varchar(16)                 NOT NULL,
   address        varchar(100)                NOT NULL
